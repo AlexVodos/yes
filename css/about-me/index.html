@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="../../css/about-me/style.css">
+    <link rel="stylesheet" type="text/css" href="../../lightbox.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+                <a href="../../index.html" class="navbar-brnad">Terug</a>
+                <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" aria-controls="navbarNav" aria-exanded="false" aria-lable="toggle navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mx-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="../../css/pg/index.html" class="nav-link text-black">Photo Gallery</a></li>
+                        <li class="nav-item"><a href="../../css/work/index.html" class="nav-link text-black">Work</a></li>
+                        <li class="nav-item"><a href="../../css/about-me/index.html" class="nav-link text-black">About</a></li>
+                        <li class="nav-item"><a href="../../css/contact/index.html" class="nav-link text-black">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        </nav>
+        <div class="container-fluid">
+        <section class="AboutMe">
+            
+                <div class="row align-items-center">
+                		<div class="col-lg-8 mb-3 text-center">
+    						<h1 class="mb-2">About Me</h1>
+    						<p>
+        						I’m a multimedia student at TSM. <br>
+        						Who is eager to learn new ways to develop <br>
+       							Myself as a person and ways on how to help <br>
+        						Others trough my work as a graphic designer.
+   						 	</p>
+						</div>
+                    <div class="col-lg-4 mb-3" center>
+                    	<img src="../../images/me.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            
+        </section>
+    </div>
+
+    
+    <script src="../../lightbox-plus-jquery.min.js"></script>
+    <script src="../../css/pg/js"></script>
+    <script>
+    var nav = document.querySelector('nav');
+
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset > -1) {
+            nav.classList.add('bg-light', 'shadow');
+        } else {
+            nav.classList.remove('bg-light', 'shadow');
+        }
+    })
+    </script>
+</body>
+
+</html>

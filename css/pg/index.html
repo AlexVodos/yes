@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" type="text/css" href="/Users/alexvodos/Documents/GIPwebsite/alex/css/pg/style1.css">
+    <link rel="stylesheet" type="text/css" href="/Users/alexvodos/Documents/GIPwebsite/alex/lightbox.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container-fluid">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+                <a href="../../index.html" class="navbar-brnad">Terug</a>
+                <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" aria-controls="navbarNav" aria-exanded="false" aria-lable="toggle navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mx-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="../../css/pg/index.html" class="nav-link text-black">Photo Gallery</a></li>
+                        <li class="nav-item"><a href="../../css/work/index.html" class="nav-link text-black">Work</a></li>
+                        <li class="nav-item"><a href="../../css/about-me/index.html" class="nav-link text-black">About</a></li>
+                        <li class="nav-item"><a href="../../css/contact/index.html" class="nav-link text-black">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+             <div class="col-lg-6 mb-3">
+                <a href="../../images/foto-1.png" data-lightbox="mygallery" data-title="black hat">
+                    <img src="../../images/foto-1.png" alt="help help" class="img-fluid" >
+                </a>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <a href="../../images/foto4.png" data-lightbox="mygallery" data-title="hats with flowers">
+                    <img src="../../images/foto4.png" alt="help help" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-lg-8 mb-3">
+                <a href="/Users/alexvodos/Documents/GIPwebsite/alex/images/foto11.png" data-lightbox="mygallery" data-title="blue hat">
+                    <img src="../../images/foto11.png" alt="help help" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-lg-4 px-0">
+                <div class="col-lg-12 mb-3">
+                    <a href="/Users/alexvodos/Documents/GIPwebsite/alex/images/foto9.png" data-lightbox="mygallery" data-title="2 hats red and blue">
+                        <img src="../../images/foto9.png" alt="help help" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-12 mb-3">
+                    <a href="/Users/alexvodos/Documents/GIPwebsite/alex/images/foto2.png" data-lightbox="mygallery" data-title="female wearing a hat">
+                        <img src="../../images/foto2.png" alt="help help" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <a href="/Users/alexvodos/Documents/GIPwebsite/alex/images/foto6.png" data-lightbox="mygallery" data-title="black hat">
+                    <img src="../../images/foto6.png" alt="help help" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <a href="/Users/alexvodos/Documents/GIPwebsite/alex/images/foto3.png" data-lightbox="mygallery" data-title="lookimg in the mirror">
+                    <img src="../../images/foto3.png" alt="help help" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-lg-4 mb-3">
+                <a href="/Users/alexvodos/Documents/GIPwebsite/alex/images/foto5.png" data-lightbox="mygallery" data-title="couple">
+                    <img src="../../images/foto5.png" alt="help help" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-lg-4 mb-3">
+                <a href="/Users/alexvodos/Documents/GIPwebsite/alex/images/foto8.png" data-lightbox="mygallery" data-title="mirror">
+                    <img src="../../images/foto8.png" alt="help help" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-lg-4 mb-3">
+                <a href="/Users/alexvodos/Documents/GIPwebsite/alex/images/foto10.png" data-lightbox="mygallery" data-title="wall of hats">
+                    <img src="../../images/foto10.png" alt="help help" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-lg-8 mb-3">
+                <a href="/Users/alexvodos/Documents/GIPwebsite/alex/images/foto7.png" data-lightbox="mygallery" data-title="sideway hat">
+                    <img src="../../images/foto7.png" alt="help help" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-lg-4 px-0">
+                <div class="col-lg-12 mb-3" class="foto12">
+                    <a href="/Users/alexvodos/Documents/GIPwebsite/alex/images/foto12.png" data-lightbox="mygallery" data-title="bunny">
+                        <img src="../../images/foto12.png" alt="help help" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="../../lightbox-plus-jquery.min.js"></script>
+    <script src="../../css/pg/js"></script>
+    <script>
+    var nav = document.querySelector('nav');
+
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset > -1) {
+            nav.classList.add('bg-light', 'shadow');
+        } else {
+            nav.classList.remove('bg-light', 'shadow');
+        }
+    })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+h2{
+    font-family: BenchNine;
+    font-size: 3em;
+}
+
+
+
+.row{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+a{
+    font-size: 2em;
+    font-family: BenchNine;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: black;
+}
+
+a, .navbar-dark .navbar-nav .nav-link:hover{
+    color: black;
+}
+
+ .navbar-toggler {
+ background-color: black;
+}
